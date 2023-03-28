@@ -17,3 +17,5 @@ There are exercises with some of the modules. It is recommended to do them, as t
 
 ## Running the Tests
 We recommend using the docker-compose file in this repo. To run it install the latest version of docker and run `docker compose up --build` to rebuild and run the tests.
+
+Alternatively, if you have installed the latest go version, you can also run `go test -v` to rebuild and run the tests. 
