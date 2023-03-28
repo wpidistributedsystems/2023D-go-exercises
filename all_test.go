@@ -46,7 +46,7 @@ func Test_conditionals_switch(t *testing.T) {
 	for i := 0; i < 10; i++ {
 		test := conditionals.Switch_statement(x[i])
 		if y[i] != test {
-			t.Fatal(y[i] + " does not equal " + test + " on iteration " + string(rune(i)))
+			t.Fatal(y[i] + " does not equal '" + test + "'")
 		}
 	}
 }

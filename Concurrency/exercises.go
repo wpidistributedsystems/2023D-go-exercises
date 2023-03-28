@@ -13,4 +13,5 @@ func main() {
 
 func Buffered_channel(limit int) chan string {
 	// TODO create and return a buffered channel for a passed amount of strings
+	return nil
 }
